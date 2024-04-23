@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title> Transparency and Interpretability</title>
+  	<link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  	<header>
+  		<div id="heading"><h1>Transparency and Interpretability in Data Science</h1></div>
+  		<div class = "grid-title">
+	  			<div class="nav-title"><a href="index.html">Introduction</a></div>
+	  			<div class="nav-title"><a href="blackbox.html">Beyond the Blackbox</a></div>
+	  			<div class="nav-title"><a href="method.html">Explanatory Methods</a></div>
+  		</div>
+  	</header>
+
+
+  	<main>
+  		<article>
+  			<h2>What is happening?</h2>
+  			<p>The extensive application of machine learning models in modern life not only brings convenience but also leads to concerns about how the models work.</p>
+  		</article>
+
+  		<div class="image-row">
+  			<img src="wallstreet.png" alt="Wallstreet article about pricing algorithm on Staples.com" width=50% height=auto>
+  			<img src="staple.jpg" alt="pricing discrimination on Staples.com" width=50% height=auto>
+  		</div>
+
+  		<article>
+  			<h3>Pricing Algorithm on Staples.com</h3>
+  			<p> A <a href="https://www.wsj.com/articles/SB10001424127887323777204578189391813881534">Wall Street Journal investigation</a> discovered that Staples.com offered different prices to customers based on their estimated location and proximity to rival stores. The customers, as an indispensable part of this data cycle, are treated differently due to the unknown pricing algorithm. </p>
+
+  		</article>
+
+  		<article>
+  			<div class="image-row">
+	  		  <img src="googlead.png" alt="Googld ads reveal gender disparity" width=30% height=auto>  			
+	  		  <img src="names.png" alt="Black-sounding names are more likely to receive ads about criminal records" width=70% height=auto>
+	  		</div>
+	  		<h3>Gender Disparity revealed by Google Ads</h3>
+  			<p>A study using the AdFisher tool to simulate job seekers that only differ in gender to conduct an experiment about online ad personalization. It found that Google displayed ads for high-paying executive jobs more frequently to males than to females, raising questions about potential discrimination in algorithmic decision-making. Recalling the moment that the pop-up windows from Google asked if you are willing to share your privacy data for further analysis and you clicked “agree”, you might not expect to be treated differently because of gender while you are just laid off and actively seeking a job. Moreover, researchers found that users with black-sounding names are more likely to receive ads about criminal records, compared to users with white-sounding names. These examples strongly emphasize the significance of data transparency.</p>
+
+  		</article>
+
+  		<article>
+  			<h2>Achieving Fairness by Opening the Blackbox</h2>
+  			<p>Employing models without transparency could impair fairness in gender, race, and other demographic factors. While laws protect everyone’s property from depriving in any means, privacy should be protected from violation as well, by ensuring the model’s fairness, enhancing the interpretability, and providing access to understand the algorithm. Complex models operate as “blackboxes”, with users’ data inputting and decisions made as output. To ensure transparency, we need explanatory methods to peel back the layers to reveal the decision-making process. Interpretability takes transparency further by not just revealing the workings of an AI system but also making it understandable to humans. It is about transforming the complex language of algorithms into a narrative that stakeholders can grasp. To achieve this, we need <a href="method.html">explanatory methods</a> to further analyze.  </p>
+  		</article>
+
+
+  	</main>
+  	<footer>
+      <p id="dayoftheweek">Welcome</p>
+  		<p>This website briefly shows my understanding in the course <a href="https://dataresponsibly.github.io/rds24/"> DS-UA 202 Responsible Data Science</a>
+  	</footer>
+
+
+  <script src = "script.js"></script>
+  </body>
+

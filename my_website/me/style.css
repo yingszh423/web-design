@@ -1,0 +1,102 @@
+/*Style sheet for the me website (index.html)*/
+
+body {
+	background-color: #F5EBE0;
+	font-family:'Georgia',sans-serif;
+	margin:20px;
+}
+
+p {
+	font-family:'Georgia',sans-serif;
+	color:#6C584C;
+	font-size:1.0em;
+	line-height: 1.4em;
+	margin:0;
+	padding: 10px;
+
+}
+
+ul {
+	font-size:1.1em;
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+	display: flex;
+	border-bottom: 5px solid #d5bdaf;
+}
+
+li {
+	margin-right:3%;
+	padding: 5px;
+}
+
+a:link, a:visited {
+	color:#6C584C;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a:hover, a:active {
+	background-color: #EED5B6;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2.0em;
+	font-family:'Georgia',sans-serif;
+}
+
+h2 {
+	font-size:1.4em;
+	font-family:'Georgia',sans-serif;
+	color:#463f3a;
+	padding:5px;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-family:'Georgia',sans-serif;
+	color:#463f3a;
+}
+
+
+main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+article, section {
+  width: calc(96% / 3);
+  margin:10px;
+  padding: 5px;
+}
+
+.image-container img {
+	width:100%;
+	display:block;
+	margin:20px auto;
+}
+
+.title {
+	font-size: 1.7em;
+}
+
+#homepage {
+	font-size:0.7em;
+	text-align:center;
+	text-decoration: none;
+}
+
+.image-gallery {
+	display:flex;
+	justify-content: space-evenly;
+	margin-top:30px;
+	padding:20px;
+}
+
+.image-gallery img {
+	width:calc(96% / 3);
+	height:auto;
+	margin:15px;
+}

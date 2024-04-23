@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title> Transparency and Interpretability</title>
+  	<link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  	<header>
+  		<div id="heading"><h1>Transparency and Interpretability in Data Science</h1></div>
+  		<div class = "grid-title">
+	  			<div class="nav-title"><a href="index.html">Introduction</a></div>
+	  			<div class="nav-title"><a href="blackbox.html">Beyond the Blackbox</a></div>
+	  			<div class="nav-title"><a href="method.html">Explanatory Methods</a></div>
+  		</div>
+  	</header>
+
+
+  	<main>
+  		<h2> Approches to Enhance Interpretability </h2>
+  		<article class="container">
+  			<div class="Group">
+	  			<h3>LIME</h3>
+	  			<p>Local Interpretable Model-Agnostic Explanations (LIME) is a technique that helps us understand why machine learning models make certain decisions. Imagine you have a complex model that acts like a black box, where you input data and get a decision, but you don't know what's happening inside. LIME solves this by creating a simpler model that approximates and explains the decision-making of the complex model, but only around the specific data point you're interested in. It works by approximating the model locally around the prediction of interest. </p>
+	  		</div>
+
+	  		<div class="Group">
+	  			<h3>SHAP</h3>
+	  			<p>SHapley Additive exPlanations (SHAP) is a unified approach to understand model's output for making machine learning models interpretable. It draws from the game-theoretic concept of Shapley values to assign each feature of a model an importance value for a particular prediction. This approach ensures equity by attributing the predictionfairly among the features. The SHAP value is the average marginal contribution of a feature value over all possible combinations. Most importantly, by allowing interaction term, SHAP captures not just the effect of a single feature but also the interaction effects with other features, presenting a comprehensive picture of the impact on the output. </p>
+  			</div>
+  		</article>
+
+  	</main>
+  	<footer>
+  		<p id="dayoftheweek">Welcome</p>
+  		<p>This website briefly shows my understanding in the course <a href="https://dataresponsibly.github.io/rds24/"> DS-UA 202 Responsible Data Science</a>
+  	</footer>
+
+  <script src = "script.js"></script>
+  </body>
+

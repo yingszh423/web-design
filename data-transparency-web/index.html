@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title> Transparency and Interpretability</title>
+  	<link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  	<header>
+  		<div id="heading"><h1>Transparency and Interpretability in Data Science</h1></div>
+  		<div class = "grid-title">
+	  			<div class="nav-title"><a href="index.html">Introduction</a></div>
+	  			<div class="nav-title"><a href="blackbox.html">Beyond the Blackbox</a></div>
+	  			<div class="nav-title"><a href="method.html">Explanatory Methods</a></div>
+  		</div>
+  	</header>
+
+  	<main>
+  		<img class="banner" src="ds_background-450.jpg"
+  				srcset = "ds_background-450.jpg 450w, ds_background-900.jpg 900w"
+  				alt="data science background"
+          sizes="(max-width: 450px) 100vw,
+                 (max-width: 900px) 100vw, 
+                 900px"> <!-- for viewports wider than 900px, it will be fixed at 900px (avoid stretching ) -->
+  		
+
+  		<article id="introduction">
+        <h2>Introduction</h2>
+  			<p>In an era where algorithmic systems increasingly contribute to making decisions such as loan approval, predictive policing, and online content personalization, it is an undeniable fact that machine learning models are permeating people’s daily lives on a large scale. While applying models with high accuracy does serve the purpose of increasing efficiency and taking precautions, we must consider the benefits and drawbacks for different stakeholders and allow them to interpret how the decisions are made in this process, ensuring that as we harness the power of machine learning, we do so responsibly.</p>
+  		</article>
+
+  		<div class="image-row">
+  			<img src="interpretability.png" alt="what is interpretability" width=50% height=auto>
+  			<img src="blackbox.png" alt="Machine learning model operates as a black box, leaving the decision-making process unknown" width=50% height=auto>
+  		</div>
+
+  		<article>
+        <h2>Tradeoff between Accuracy and Interpretability</h2>
+  			<p>There is an inherent trade-off in machine learning models between accuracy and interpretability. Simpler models such as linear regression compromise accuracy for the ease of explanability. In comparison, highly accurate models, like deep neural networks and ensembles, are often complex and operate as <a href="blackbox.html" style="color:blue;">"black boxes"</a>, making them less interpretable. As the figure shows, imaging you are seeking mortgage loan and have filled all the information needed for application. The credit classifier will decide whether it is approved by running its algorithm with your input. This process remains as a blackbox as you, as the applicant, only knows the result. We need <a href="method.html" style="color:blue;">explanatory methods</a> to peel back the layers to reveal the decision-making process, to ensure transparency and equitable process. </p>
+
+  		</article>
+
+  	</main>
+  	<footer>
+      <p id="dayoftheweek">Welcome</p>
+  		<p>This website briefly shows my understanding in the course <a href="https://dataresponsibly.github.io/rds24/"> DS-UA 202 Responsible Data Science</a>
+  	</footer>
+
+
+
+  <script src = "script.js"></script>
+  </body>
+
